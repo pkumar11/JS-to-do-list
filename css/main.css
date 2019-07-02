@@ -1,0 +1,70 @@
+:root {
+  --mainWhite: #f5f5f5;
+  --mainGreen: #80cfa9;
+  --mainBlack: #333333;
+  --mainRed: #d62828;
+  --mainBlue: #11b5e4;
+}
+body {
+  background: var(--mainWhite);
+  color: #333333;
+  background-image: url("../img/illustration-reminder-note_53876-27153.jpg");
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+}
+
+
+.form-control {
+  border-color: var(--mainGreen) !important;
+}
+.heading{
+  font-size: 4rem;
+}
+
+.feedback {
+  display: none;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  background-color:#FFD087;
+}
+.item-icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding:3px 3px;
+}
+.complete-item {
+  color: var(--mainGreen);
+}
+.complete-item:hover {
+  color: var(--mainGreen);
+}
+.edit-item {
+  color: var(--mainBlue);
+}
+.edit-item:hover {
+  color: var(--mainBlue);
+}
+.delete-item {
+  color: var(--mainRed);
+}
+.delete-item:hover {
+  color: var(--mainRed);
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.visibility {
+  opacity: 0.5;
+}
+.showItem {
+  display: block;
+}
+.item-name{
+  font-size:1.6rem;
+  padding: 5px 10px;
+
+}
